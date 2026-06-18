@@ -9,7 +9,7 @@ export type InputProps = {
 
 export type RootStackParamList = {
     Auth: undefined,
-    Main: undefined,
+    Home: undefined,
 }
 
 export type AuthStackParamList = {

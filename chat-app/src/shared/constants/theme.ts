@@ -60,9 +60,6 @@ export const palette = {
 } as const;
 
 
-// ─────────────────────────────────────────
-// LIGHT THEME
-// ─────────────────────────────────────────
 export const lightTheme = {
   dark: false,
 
@@ -140,9 +137,6 @@ export const lightTheme = {
 } as const;
 
 
-// ─────────────────────────────────────────
-// DARK THEME
-// ─────────────────────────────────────────
 export const darkTheme = {
   dark: true,
 
@@ -220,9 +214,6 @@ export const darkTheme = {
 } as const;
 
 
-// ─────────────────────────────────────────
-// TYPOGRAPHY
-// ─────────────────────────────────────────
 export const typography = {
   // Font sizes
   size: {
@@ -253,9 +244,6 @@ export const typography = {
 } as const;
 
 
-// ─────────────────────────────────────────
-// SPACING
-// ─────────────────────────────────────────
 export const spacing = {
   xs:   4,
   sm:   8,
@@ -269,10 +257,6 @@ export const spacing = {
   '5xl': 64,
 } as const;
 
-
-// ─────────────────────────────────────────
-// BORDER RADIUS
-// ─────────────────────────────────────────
 export const radius = {
   xs:   4,
   sm:   8,
@@ -287,9 +271,6 @@ export const radius = {
 } as const;
 
 
-// ─────────────────────────────────────────
-// SHADOWS
-// ─────────────────────────────────────────
 export const shadows = {
   none: {},
 
@@ -327,20 +308,12 @@ export const shadows = {
   },
 } as const;
 
-
-// ─────────────────────────────────────────
-// ANIMATION TIMINGS
-// ─────────────────────────────────────────
 export const animation = {
   fast:   150,
   normal: 250,
   slow:   400,
 } as const;
 
-
-// ─────────────────────────────────────────
-// AVATAR SIZES
-// ─────────────────────────────────────────
 export const avatarSize = {
   xs:  28,
   sm:  36,
@@ -350,10 +323,6 @@ export const avatarSize = {
   '2xl': 96,
 } as const;
 
-
-// ─────────────────────────────────────────
-// TYPE EXPORTS
-// ─────────────────────────────────────────
 export type Theme      = typeof lightTheme;
 export type ThemeColors = typeof lightTheme.colors;
 export type Palette    = typeof palette;
